@@ -1,7 +1,7 @@
-from Car import Car
-car=Car("Four wheeler","Mahendhra",1000)
-car.display_vehicle_details()
-car.calculate_rent(3)
+from Car import Car   #import child class
+car=Car("Four wheeler","Mahendhra",1000)  #create object for Car classs
+car.display_vehicle_details()       #call display vehicle details of car
+car.calculate_rent(3)   #call calculate rent methord and pass an atribute days  value
 
 
 
@@ -12,10 +12,10 @@ car.calculate_rent(3)
 # Car rental price including service charge:  3500
 
 
-from Bike import Bike
-bike=Bike("Two wheeler","OLA",500)
-bike.display_vehicle_details()
-bike.calculate_rent(3)
+from Bike import Bike     #import bike class
+bike=Bike("Two wheeler","OLA",500)  #create object for bike classs
+bike.display_vehicle_details()  #call display vehicle details of bike
+bike.calculate_rent(3)          #call calculate rent methord and pass an atribute days  value
 
 
 #output
